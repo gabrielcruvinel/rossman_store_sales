@@ -21,4 +21,13 @@ Qual o valor de vendas de cada loja nas proximas 6 semanas ?
  3. Análise exploratoria dos dados
  4. Feature Engineering
  5. Preparação dos dados - Feature transformation
- 6. 
+ 6. Separo o conjunto de treino em:
+  - Dados do treino :95.09%
+  - Dados de teste: 4.90%
+ 7. Feature Selection
+ 8. Definição da Baseline com os algoritmos escolhidos (Random Forest Regressor, Averange Model, Linear Regression, Linear Regression - lasso, XGBoost Regressor)
+ 9. Comparação de performance da baseline utilizando validação cruzada
+ 10. Analise das performances dos algoritmos
+ 11. Criado grid para teste de hiperparametros utilizando Random Search
+ 12. Com os melhores hiperparametros, treinar o modelo de teste
+ 13. Avaliar o resultado final
