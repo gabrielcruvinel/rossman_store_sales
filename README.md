@@ -45,7 +45,7 @@ Qual o valor de vendas de cada loja nas proximas 6 semanas ?
   |Model Name   |      MAE     |  MAPE |  RMSE |
   |-------------|:------------:|:-----:| -----:|
   | Random Forest Regressor|  680.193831	 | 0.100006 |   1011.665881 |
-  | col 2 is |    centered   |   $12 |   $12 |
-  | col 3 is | right-aligned |    $1 |   $12 |
-  | col 1 is |  left-aligned | $1600 |   $12 |
-  | col 1 is |  left-aligned | $1600 |   $12 |
+  | Averange Model |    1354.800353	   |   0.455051 |   1835.135542 |
+  | Linear Regression | 1867.089774 |    0.292694 |   2671.049215 |
+  | Linear Regression - lasso |  1891.704880 | 0.289106 |   2744.451735 |
+  | XGBoost Regressor |  6683.480067 | 0.949442 |   7330.817431 |
