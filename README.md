@@ -32,10 +32,10 @@ Qual o valor de vendas de cada loja nas proximas 6 semanas ?
  12. Com os melhores hiperparametros, treinar o modelo de teste utilizando XGBoost
  13. Avaliar o resultado final
  
- #2 - Qual foi o critério utilizado na seleção do Modelo Final?
+ # 2 - Qual foi o critério utilizado na seleção do Modelo Final?
   O modelo que obteve a melhor performance entre entre os resultados da baseline, utilizando os hiperparametros, utilizando as 3 métricas avaliadas( MAE, MAPE, RMSE)
   
-  #3 - Quais evidencias que mostram que o modelo treinado é bom
+ # 3 - Quais evidencias que mostram que o modelo treinado é bom
   Verificando o resultado final com o baseline, obtive uma melhora significativa nas métricas avaliadas. Separei apenas 5% do conjunto de treino para teste afim de simular
   uma situação proxima do real, com datas de vendas mais recentes. O resultado final mostra que a acuracia do modelo final chegou a 90,8%, mostrando que foi o melhor modelo
   escolhido.
