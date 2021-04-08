@@ -16,9 +16,9 @@ Qual o valor de vendas de cada loja nas proximas 6 semanas ?
 É um problema de vendas
 
 ### 1 - Como foi a estratégia utilizada para definição do problema ?
-1.1. Realizar o download dos dados
-1.2. Manipulação dos tipos de dados e preenchimento de dados faltantes
-1.3. Análise exploratoria dos dados
-1.4. Feature Engineering
-1.5. Preparação dos dados - Feature transformation
-1.6. 
+ 1. Realizar o download dos dados
+ 2. Manipulação dos tipos de dados e preenchimento de dados faltantes
+ 3. Análise exploratoria dos dados
+ 4. Feature Engineering
+ 5. Preparação dos dados - Feature transformation
+ 6. 
