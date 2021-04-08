@@ -37,7 +37,8 @@ Qual o valor de vendas de cada loja nas proximas 6 semanas ?
   
   #3 - Quais evidencias que mostram que o modelo treinado é bom
   Verificando o resultado final com o baseline, obtive uma melhora significativa nas métricas avaliadas. Separei apenas 5% do conjunto de treino para teste afim de simular
-  uma situação proxima do real, com datas de vendas mais recentes.
+  uma situação proxima do real, com datas de vendas mais recentes. O resultado final mostra que a acuracia do modelo final chegou a 90,8%, mostrando que foi o melhor modelo
+  escolhido.
   Resultados da baseline dos algoritmos treinados:
   
   Baseline:
@@ -49,3 +50,9 @@ Qual o valor de vendas de cada loja nas proximas 6 semanas ?
   | Linear Regression | 1867.089774 |    0.292694 |   2671.049215 |
   | Linear Regression - lasso |  1891.704880 | 0.289106 |   2744.451735 |
   | XGBoost Regressor |  6683.480067 | 0.949442 |   7330.817431 |
+  
+  Modelo Final:
+  |Model Name   |      MAE     |  MAPE |  RMSE |
+  |-------------|:------------:|:-----:| -----:|
+  | XGBoost Regressor |  633.222275 | 0.091551 |   924.847487 |
+  
